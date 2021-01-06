@@ -1,0 +1,13 @@
+.container {
+  padding: 120px 15px;
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.error {
+  color: #ff5252;
+  margin-bottom: 50px;
+}
