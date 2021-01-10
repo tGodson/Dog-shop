@@ -9,9 +9,9 @@ const Error = ({ msg }) => (
     <h2 className={styles.error}>{msg}</h2>
     <p>
       If the problem persists please report at
-      <a href="mailto:cristian.ceamatu@gmail.com" className={styles.error}>
+      <a href="mailto:tendongzegodson@gmail.com" className={styles.error}>
         {' '}
-        cristian.ceamatu@gmail.com
+        tendongzegodson@gmail.com
       </a>
     </p>
   </div>
