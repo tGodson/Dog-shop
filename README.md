@@ -24,6 +24,10 @@
 
 ![image](app_screenshot.png)
 
+## Live view
+
+[View the live app here](http://tGodson.github.io)
+
 ## Video presentation [here]()
 
 ## Built With
