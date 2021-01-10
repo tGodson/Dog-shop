@@ -26,7 +26,7 @@
 
 ## Live view
 
-[View the live app here](http://tGodson.github.io)
+[View the live app here](https://gentle-reaches-48579.herokuapp.com/ )
 
 ## Video presentation [here]()
 
