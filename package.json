@@ -26,10 +26,12 @@
     "react-scripts": "4.0.0"
   },
   "scripts": {
-    "start": "node server",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eslint": "eslint .",
     "stylelint": "stylelint \"**/*.{css, scss}\"",
     "fix": "stylelint --fix \"**/*.{css, scss}\" && eslint . --fix",
@@ -58,5 +60,6 @@
     "stylelint-config-standard": "20.0.x",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "3.17.x"
-  }
+  },
+  "homepage": "http://tGodson.github.io/Dog-shop"
 }
