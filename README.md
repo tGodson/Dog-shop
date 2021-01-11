@@ -41,11 +41,6 @@
 - Jest
 - React Testing Library
 
-<!-- ## You can check other react that I built:
-
-- [react-redux-app - React Redux Toolkit](https://redux-bookstore199.herokuapp.com/)
-- [ReactRedux - Canon Calculator clone](https://codepen.io/crisDevMM/full/ZjqKza) -->
-
 ## Prerequisities
 
 To get this project up and running locally, you must have [node](https://nodejs.org/en/) and [yarn](https://yarnpkg.com/) installed locally.
