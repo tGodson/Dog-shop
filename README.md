@@ -26,9 +26,11 @@
 
 ## Live view
 
-[View the live app here](https://gentle-reaches-48579.herokuapp.com/ )
+[View the live app here](https://tGodson.github.io/Dog-shop/)
 
-## Video presentation [here]()
+## Video presentation 
+
+View a video presentation of the app [Here](https://www.loom.com/share/24a5b8d3d99e48308199779da5d33b7e)
 
 ## Built With
 

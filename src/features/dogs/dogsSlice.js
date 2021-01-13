@@ -57,9 +57,6 @@ export const counterSlice = createSlice({
     success: {},
   },
   reducers: {
-    // changeLifeSpanFilter: (state, action) => {
-    //   state.filters.lifeSpanFilter = action.payload;
-    // },
     changeBreedGroupFilter: (state, action) => {
       state.filters.breedGroupFilter = action.payload;
     },
@@ -128,7 +125,6 @@ export const counterSlice = createSlice({
 });
 
 export const {
-  // changeLifeSpanFilter,
   changeBreedGroupFilter,
   changeSearchFilter,
   setCurrentPage,
