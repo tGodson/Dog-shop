@@ -6,7 +6,7 @@ import { getDogs } from './dogsSlice';
 import Loading from '../../components/Loading';
 import Error from '../../components/Error';
 import Filter from './Filter';
-import styles from './Dogs.module.css';
+import styles from '../css/Dogs.module.css';
 
 const Dogs = () => {
   const dispatch = useDispatch();

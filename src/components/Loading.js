@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import styles from './Loading.module.css';
+import styles from './css/Loading.module.css';
 
 const Loading = ({ msg }) => (
   <div className={styles.container}>

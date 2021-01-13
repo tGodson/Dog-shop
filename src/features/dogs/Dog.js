@@ -13,7 +13,7 @@ import lifeImg from '../../assets/life.png';
 import groupImg from '../../assets/job.png';
 import breedImg from '../../assets/breed.png';
 import linkImg from '../../assets/link.png';
-import styles from './Dog.module.css';
+import styles from '../css/Dog.module.css';
 
 import Loading from '../../components/Loading';
 import Error from '../../components/Error';

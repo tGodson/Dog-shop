@@ -18,15 +18,11 @@
 - Users can click on an image to be routed to the dog show page where they can see their details: temperament, life span, raised for, breed group, height, and weight. They can click on the Wikipedia link if they are interested to check extra info about the dog.
 - The dog show page contains other random dogs sections where users can navigate to see other dogs
 
-## This web app is live, you can check it here: [Live demo]()
+## This web app is live, you can check it here: [Live demo](https://tGodson.github.io/Dog-shop/)
 
 ## Screenshot of the app.
 
 ![image](app_screenshot.png)
-
-## Live view
-
-[View the live app here](https://tGodson.github.io/Dog-shop/)
 
 ## Video presentation 
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import styles from './Error.module.css';
+import styles from './css/Error.module.css';
 
 const Error = ({ msg }) => (
   <div className={styles.container}>

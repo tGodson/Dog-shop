@@ -3,12 +3,11 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import {
   changeBreedGroupFilter,
-  // changeLifeSpanFilter,
   changeSearchFilter,
   getDogs,
   setCurrentPage,
 } from './dogsSlice';
-import styles from './Dogs.module.css';
+import styles from '../css/Dogs.module.css';
 
 const Filter = () => {
   const dispatch = useDispatch();
@@ -17,15 +16,6 @@ const Filter = () => {
     dispatch(setCurrentPage(e.target.value));
     dispatch(getDogs(e.target.value));
   };
-
-  // const lifeSpanFilter = useSelector(state => state.dogs.filters.lifeSpanFilter);
-  // const ageCategories = useSelector(state=>state.dogs.data.map(dog=>dog.breeds[0].life_span));
-  // const uniqAgesArray = [...new Set(ageCategories)];
-  // const ageOptions = uniqAgesArray.map(category => (
-  //   <option key={category} value={category}>
-  //     {category}
-  //   </option>
-  // ));
 
   const breedGroupFilter = useSelector(state => state.dogs.filters.breedGroupFilter);
   const breedGroupCategories = useSelector(state => state.dogs.data.map(dog => {
@@ -71,17 +61,6 @@ const Filter = () => {
           <option value="">Breed group (all)</option>
           {breedGroupOptions}
         </select>
-
-        {/* <select
-          className={styles.filterSelect}
-          id="lifeSpanCategory"
-          name="lifeSpanCategory"
-          onChange={e => dispatch(changeLifeSpanFilter(e.target.value))}
-          value={lifeSpanFilter}
-        >
-          <option value="">Life span (all)</option>
-          {ageOptions}
-        </select> */}
 
         <input
           className={styles.filterSelect}

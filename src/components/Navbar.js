@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import logo from '../assets/dogshop.png';
-import styles from './Navbar.module.css';
+import styles from './css/Navbar.module.css';
 
 const Navbar = () => (
   <nav className={styles.nav}>

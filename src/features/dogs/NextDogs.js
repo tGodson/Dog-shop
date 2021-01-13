@@ -7,7 +7,7 @@ import { getNextDogs } from './dogsSlice';
 
 import Error from '../../components/Error';
 import refreshIcon from '../../assets/refresh.png';
-import styles from './Dogs.module.css';
+import styles from '../css/Dogs.module.css';
 
 const NextDogs = () => {
   const dispatch = useDispatch();
