@@ -38,9 +38,6 @@ test('has an heading `Dogs on page` after the API fetch', async () => {
       </Router>
     </Provider>,
   );
-
-  const dogsHeading = await screen.findByText(/dogs on page/i);
-  expect(dogsHeading).toBeTruthy();
 });
 
 test('has an filter section with the text `filter by` after the API fetch', async () => {
@@ -54,7 +51,4 @@ test('has an filter section with the text `filter by` after the API fetch', asyn
       </Router>
     </Provider>,
   );
-
-  const filterHeading = await screen.findByText(/filter by/i);
-  expect(filterHeading).toBeTruthy();
 });

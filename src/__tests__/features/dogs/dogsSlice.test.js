@@ -37,7 +37,7 @@ describe('dogsSlice async actions and initial state', () => {
     await store.dispatch(getDogs());
     const { data: dogs } = store.getState().dogs;
     expect(dogs.length).not.toStrictEqual(0);
-  });
+  }, 30000);
 
   test('has a default empty dog object array in the initial fase', () => {
     const defaultEmptyDog = {
@@ -52,7 +52,7 @@ describe('dogsSlice async actions and initial state', () => {
     await store.dispatch(getDog(id));
     const { dog } = store.getState().dogs;
     expect(dog.id).toStrictEqual(id);
-  });
+  }, 30000);
 
   test('has a default array nextDogs with empty dog objects', () => {
     const defaultEmptyNextDogs = [
@@ -82,7 +82,7 @@ describe('dogsSlice async actions and initial state', () => {
     const { nextDogs } = store.getState().dogs;
     expect(nextDogs.length).toBeGreaterThan(4);
     expect(nextDogs[0].id).toBeDefined();
-  });
+  }, 30000);
 });
 
 describe('dogsSlice actions', () => {
@@ -137,5 +137,5 @@ describe('dogsSlice actions', () => {
 
     expect(emptyDogAfterReset).toBeDefined();
     expect(emptyDogAfterReset).toStrictEqual(defaultEmptyDog);
-  });
+  }, 30000);
 });

@@ -24,6 +24,6 @@ describe('Footer', () => {
       </Provider>,
     );
 
-    expect(getByText('Cristian Ceamatu')).toBeTruthy();
+    expect(getByText('Tendongze Godson')).toBeTruthy();
   });
 });

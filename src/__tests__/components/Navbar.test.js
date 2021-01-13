@@ -24,7 +24,7 @@ describe('Navbar', () => {
       </Provider>,
     );
 
-    expect(getByText('Just Dogs')).toBeTruthy();
+    expect(getByText('Dog Shop')).toBeTruthy();
     expect(getByText('Home')).toBeTruthy();
     expect(getByText('Contact')).toBeTruthy();
   });

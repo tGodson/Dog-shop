@@ -19,5 +19,5 @@ test('renders the home page with no errors', () => {
     </Provider>,
   );
 
-  expect(getByText(/just dogs/i)).toBeInTheDocument();
+  expect(getByText(/Dog Shop/i)).toBeInTheDocument();
 });
