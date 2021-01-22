@@ -73,7 +73,7 @@ Most importantly, enjoy the app!<br>
 
 ## Author
 
-👤 **Cristian Viorel Ceamatu**
+👤 **Tendongze Godson**
 
 - Email: [Email](tendongzegodson@gmail.com)
 - Github: [tGodson](https://github.com/tGodson)
