@@ -1,5 +1,5 @@
 {
-  "name": "react-capstone",
+  "name": "Dog-shop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -61,5 +61,5 @@
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "3.17.x"
   },
-  "homepage": "http://tGodson.github.io/"
+  "homepage": "https://tGodson.github.io/Dog-shop/"
 }

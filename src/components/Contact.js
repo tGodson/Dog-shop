@@ -11,7 +11,7 @@ const Contact = () => (
     <ul className={styles.links}>
       <li className={styles.link}>
         <img className={styles.img} width="30" height="30" src={github} alt="Github" />
-        <a href="https://github.com/tGodson" target="_blank" rel="noreferrer">
+        <a href="https://github.com/tGodson/" target="_blank" rel="noreferrer">
           tGodson
         </a>
       </li>

@@ -6,10 +6,11 @@ import './index.css';
 import App from './App';
 import store from './app/store';
 
+const routerBaseName = process.env.PUBLIC_URL;
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <Router>
+      <Router basename={routerBaseName}>
         <App />
       </Router>
     </Provider>
