@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Dog-shop/static/css/main.6f7e3759.chunk.css",
-    "main.js": "/Dog-shop/static/js/main.7b15e733.chunk.js",
-    "main.js.map": "/Dog-shop/static/js/main.7b15e733.chunk.js.map",
+    "main.js": "/Dog-shop/static/js/main.a7f16432.chunk.js",
+    "main.js.map": "/Dog-shop/static/js/main.a7f16432.chunk.js.map",
     "runtime-main.js": "/Dog-shop/static/js/runtime-main.8bdea88b.js",
     "runtime-main.js.map": "/Dog-shop/static/js/runtime-main.8bdea88b.js.map",
     "static/js/2.2d97483f.chunk.js": "/Dog-shop/static/js/2.2d97483f.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.8bdea88b.js",
     "static/js/2.2d97483f.chunk.js",
     "static/css/main.6f7e3759.chunk.css",
-    "static/js/main.7b15e733.chunk.js"
+    "static/js/main.a7f16432.chunk.js"
   ]
 }
