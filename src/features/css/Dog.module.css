@@ -1,0 +1,142 @@
+.container {
+  padding-bottom: 100px;
+}
+
+.dog {
+  font-family: Source Sans Pro, sans-serif;
+  background-color: #fafafa;
+  color: #565656;
+  line-height: 1.5;
+  border-bottom: 1px solid #ff9e807a;
+  margin-bottom: 30px;
+}
+
+.dogImgContainer {
+  text-align: center;
+}
+
+.dogHeading {
+  font-size: 24px;
+  text-align: center;
+  background-color: #fafafa;
+  padding: 25px 10px;
+  letter-spacing: 2px;
+}
+
+.dogImg {
+  height: 300px;
+  min-width: 100%;
+}
+
+.dogSubHeading {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+}
+
+.dogSkillsContainer {
+  padding: 15px;
+  font-family: Open Sans Condensed, sans-serif, serif;
+  font-weight: bold;
+}
+
+.dogSkills {
+  padding: 15px 0;
+  list-style: none;
+}
+
+.dogSkillName,
+.dogSkill {
+  display: flex;
+  align-items: center;
+}
+
+.dogSkill {
+  padding: 15px 0;
+}
+
+.dogSkillImg {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.dogSkillName {
+  margin-right: 15px;
+  width: 50%;
+}
+
+.dogSkillValue {
+  color: pink;
+  width: 50%;
+  text-align: right;
+}
+
+.dogSkillLink {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 5px;
+  padding: 15px 5px;
+  background-color: rgba(0, 0, 0, 0.096);
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.15);
+  color: pink;
+}
+
+.dogSkillLink:hover {
+  color: pink;
+  transform: scale(1.01);
+}
+
+.dogSkill:not(:last-child) {
+  border-bottom: 1px solid #ff9e807a;
+}
+
+.nextDogsContainer {
+  margin-bottom: 100px;
+  height: 150px;
+  font-size: 48px;
+}
+
+.backButton {
+  margin: 0 auto 10px;
+  background-color: pink;
+  padding: 5px 15px;
+  color: #fff;
+  outline: none;
+  border: 1px solid #ff9e807a;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.backButton:active {
+  opacity: 0.8;
+}
+
+@media (min-width: 568px) {
+  .dogImg {
+    height: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .dogImg {
+    height: 500px;
+  }
+}
+
+@media (min-width: 992px) {
+  .dog {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 15px;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+  .dogSkillsContainer {
+    padding: 45px 15px 0;
+  }
+}
